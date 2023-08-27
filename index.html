@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+     <title>Cronômetro</title>
+    </header>
+    <body>
+        <div id="stopwatch">
+    
+            <h2 id="timer">00:00:00:00</h2>
+    
+            <div id="actions">
+                <button id="reset"class="botao" type="submit" onsubmit="">Reiniciar</button>    
+                    <i class="fa-solid fa-redo"></i> 
+                </button>
+                <button id="power" action="start"id="reset"class="botao" type="submit" onsubmit="">Pausar</button>
+                    <i class="fa-solid fa-play"></i>
+                </button>
+                <button id="mark" id="reset"  class="botao" type="submit" onsubmit="">Continue</button>
+                    <i class="fa-solid fa-flag"></i>
+                </button>
+            </div>
+    
+            <div id="marks-list"></div>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
